@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/node_modules/@fortawesome/fontawesome-free/css/all.css"
+    />
+
+    <link rel="stylesheet" href="blog.css" />
+    <!-- SCRIPT -->
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </head>
+  <body>
+    <!-- START NAVBAR -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <div class="nav-logo">
+          <img src="/components/assests/logo.png" alt="logo" />
+        </div>
+
+        <button
+          class="navbar-toggler bg-warning text-warning"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <div class="nav-logo">
+              <img src="/components/assests/logo.png" alt="logo" />
+            </div>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+
+          <div class="offcanvas-body justify-content-end">
+            <ul class="navbar-nav gap-4 fw-medium">
+              <li class="nav-item active">
+                <a
+                  class="nav-link text-black"
+                  aria-current="page"
+                  href="/components/Home/home.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-black"
+                  href="/components/About/about.html"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-black"
+                  href="/components/practice/practice.html"
+                  >Price Areas</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="/components/Blog/blog.html"
+                  >Blog</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="/components/Contact/contact.html">Contact</a>
+              </li>
+              <button
+                type="button"
+                class="btn btn-warning text-uppercase text-black"
+              >
+                Request An appointment
+              </button>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- END NAVBAR -->
+
+    <!-- START HERO BANNER -->
+    <div class="banner-image w-100 vh-50 d-flex align-items-center">
+      <div class="container">
+        <div class="content text-start mt-4">
+          <h1 class="text-white">We are exprts in a lot of legal areas</h1>
+        </div>
+      </div>
+    </div>
+    <!-- END HERO BANNER -->
+
+    <!-- START BLOG -->
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-md-6">
+          <div
+            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+          >
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong
+                class="d-inline-block mb-2 text-primary-emphasis text-uppercase"
+                >Technology</strong
+              >
+              <h3 class="mb-0">
+                Survey Says Gen AI Puts Law Librarians and KM Professionals At
+                Risk of Obsolescence
+              </h3>
+              <div class="mb-1 text-body-secondary">July 06, 2023</div>
+              <p class="card-text mb-auto">
+                Barely a week before the American Association of Law Libraries
+                descends on Boston.........
+              </p>
+              <a
+                href="#"
+                class="icon-link gap-1 icon-link-hover stretched-link"
+              >
+                Continue reading
+                <svg class="bi"><use xlink:href="#chevron-right" /></svg>
+              </a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img
+                class="bd-placeholder-img h-100"
+                width="200"
+                height=""
+                src="/components/assests/blog 1.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div
+            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+          >
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-success-emphasis"
+                >JUVENILE JUSTICE</strong
+              >
+              <h3 class="mb-0">
+                Washington State Sets Template for Protecting Kids’ Privacy in
+                Court.
+              </h3>
+              <div class="mb-1 text-body-secondary">MAY 24, 2022</div>
+              <p class="mb-auto">
+                This month, the Washington State Supreme Court took a bold step
+                toward protecting children in the legal system. With a few
+                tweaks to existing court rules.......
+              </p>
+              <a
+                href="#"
+                class="icon-link gap-1 icon-link-hover stretched-link"
+              >
+                Continue reading
+                <svg class="bi"><use xlink:href="#chevron-right" /></svg>
+              </a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img
+                class="bd-placeholder-img h-100"
+                width="200"
+                height=""
+                src="/components/assests/blog 2.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-md-6">
+          <div
+            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+          >
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong
+                class="d-inline-block mb-2 text-primary-emphasis text-uppercase"
+                >World</strong
+              >
+              <h3 class="mb-0">
+                Plan How To Best Distribute Items To Family And Friends
+              </h3>
+              <div class="mb-1 text-body-secondary">Nov 12</div>
+              <p class="card-text mb-auto">
+                One of the greatest gifts you can give your family is detailed
+                information about how to distribute your property upon your
+                death. It can be a daunting task for surviving loved ones to
+                take care of things once you have passed away. The more
+                information you can provide in advance............
+              </p>
+              <a
+                href="#"
+                class="icon-link gap-1 icon-link-hover stretched-link"
+              >
+                Continue reading
+                <svg class="bi"><use xlink:href="#chevron-right" /></svg>
+              </a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img
+                class="bd-placeholder-img h-100"
+                width="200"
+                height=""
+                src="/components/assests/blog-img 1.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div
+            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+          >
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong
+                class="d-inline-block mb-2 text-success-emphasis text-uppercase"
+                >Family</strong
+              >
+              <h3 class="mb-0">
+                What Can I Do If My Family Member Died Without a Will?
+              </h3>
+              <div class="mb-1 text-body-secondary">Nov 11</div>
+              <p class="mb-auto">
+                Losing a loved one is difficult no matter what. When you are
+                grieving, perhaps the last thing you want to deal with is the
+                whole legal process of handling your family member’s estate. If
+                there is a valid will, you would file it with the probate court
+                to start the probate process. However, not everyone.........
+              </p>
+              <a
+                href="#"
+                class="icon-link gap-1 icon-link-hover stretched-link"
+              >
+                Continue reading
+                <svg class="bi"><use xlink:href="#chevron-right" /></svg>
+              </a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img
+                class="bd-placeholder-img h-100"
+                width="200"
+                height=""
+                src="/components/assests/blog-img 1.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END BLOG  -->
+
+
+    <!-- START APPOINT -->
+    <div class="banner-image-2 d-flex align-items-center mt-5">
+      <div class="container">
+        <div class="content text-start mt-4 text-center">
+          <div class="lineInfo">
+            <div class="line"></div>
+          </div>
+          <h1 class="text-white">We Help Solve Your Legal Issues</h1>
+          <p class="text-white mt-4">
+            Are you thinking about getting legal advice? Would you like to find
+            out more <br />
+            about our services? You can send us an e-mail and our team of expert
+            will <br />
+            respond to you immediately.
+          </p>
+          <button
+            type="button"
+            class="btn btn-warning text-uppercase text-white mt-4"
+          >
+            Get appointment
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- END APPOINTMENT -->
+
+
+    <!-- START FOOTER -->
+    <div class="" style="background-color: #323438">
+      <div class="container">
+        <footer class="py-3">
+          <ul
+            class="nav justify-content-center border-bottom pb-3 mb-3 h-footer"
+          >
+            <li class="nav-item">
+              <a
+                href="/components/Home/home.html"
+                class="nav-link px-2 text-white fw-medium"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="/components/About/about.html"
+                class="nav-link px-2 text-white fw-medium"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="/components/practice/practice.html"
+                class="nav-link px-2 text-white fw-medium"
+                >Practice Areas</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="/components/Blog/blog.html"
+                class="nav-link px-2 text-white fw-medium"
+                >Blog</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="/components/Contact/contact.html" class="nav-link px-2 text-white fw-medium">Contact</a>
+            </li>
+          </ul>
+          <p class="text-center text-white fw-medium">
+            Copyright &copy; 2023 Rombouts House Law Firm || No.1 Trusted Law
+            Firm
+          </p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

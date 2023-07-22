@@ -164,6 +164,9 @@
   #main-b .a-bg{
     height: 20rem;
   }
+  .work-done{
+    padding-top: 500px;
+  }
   .box{
     height: 18rem;
     width: 15rem;
@@ -179,6 +182,16 @@
     width: 18rem;
   }
 }
+
+@media(max-width: 575px){
+  .work-done{
+    padding-top: 500px;
+  }
+}
+
+
+
+
 
 /* ABOUT */
 @media(max-width: 375px){

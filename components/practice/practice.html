@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/node_modules/@fortawesome/fontawesome-free/css/all.css"
+    />
+
+    <link rel="stylesheet" href="practice.css" />
+    <!-- SCRIPT -->
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </head>
+  <body>
+    <!-- START NAVBAR -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <div class="nav-logo">
+          <img src="/components/assests/logo.png" alt="logo" />
+        </div>
+
+        <button
+          class="navbar-toggler bg-warning text-warning"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <div class="nav-logo">
+              <img src="/components/assests/logo.png" alt="logo" />
+            </div>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+
+          <div class="offcanvas-body justify-content-end">
+            <ul class="navbar-nav gap-4 fw-medium">
+              <li class="nav-item active">
+                <a
+                  class="nav-link text-black"
+                  aria-current="page"
+                  href="/components/Home/home.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-black"
+                  href="/components/About/about.html"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="#">Price Areas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="/components/Blog/blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="/components/Contact/contact.html">Contact</a>
+              </li>
+              <button
+                type="button"
+                class="btn btn-warning text-uppercase text-black"
+              >
+                Request An appointment
+              </button>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- END NAVBAR -->
+
+    <!-- START HERO BANNER -->
+    <div class="banner-image w-100 vh-50 d-flex align-items-center">
+      <div class="container">
+        <div class="content text-start mt-4">
+          <h1 class="text-white">We are exprts in a lot of legal areas</h1>
+        </div>
+      </div>
+    </div>
+    <!-- END HERO BANNER -->
+
+    <div class="container mt-5">
+      <div class="lineInfo">
+        <div class="line"></div>
+      </div>
+      <h2 class="text-center mt-4">We help people in solving legal issues</h2>
+      <p class="text-center mb-5">
+        At Rombouts House Law Firm, we assist and undertake a list of legal
+        services
+      </p>
+      <div class="row">
+        <div class="col-md text-center mb-3">
+          <div class="card card-body bg-light border-0">
+            <i
+              class="fas fa-house-user fs-1"
+              style="color: rgba(248, 175, 40, 0.842)"
+            ></i>
+            <h5>Probates</h5>
+            <p>
+              The word “probate" refers to the process of winding up a deceased
+              person’s affairs. The Probate Division of the courthouse handles
+              the administration of Estates. The purpose of an Estate case is
+              the orderly distribution of belongings and payment of debts a
+              person who has died.
+            </p>
+          </div>
+        </div>
+        <div class="col-md text-center mb-3">
+          <div class="card card-body bg-light border-0">
+            <i
+              class="fas fa-people-arrows fs-1"
+              style="color: rgba(248, 175, 40, 0.842)"
+            ></i>
+            <h5>Spousal Support</h5>
+            <p>
+              Alimony (sometimes called spousal support) is financial support
+              paid by one former spouse to the other after a divorce or a legal
+              separation. It may be granted for a specific period of time or
+              indefinitely until the court changes it. Either spouse may request
+              alimony. The purpose of alimony is to provide “reasonable and
+              necessary" support.
+            </p>
+          </div>
+        </div>
+        <div class="col-md text-center mb-3">
+          <div class="card card-body bg-light border-0">
+            <i
+              class="fas fa-child fs-1"
+              style="color: rgba(248, 175, 40, 0.842)"
+            ></i>
+            <h5>Child Support</h5>
+            <p>
+              Alimony (sometimes called spousal support) is financial support
+              paid by one former spouse to the other after a divorce or a legal
+              separation. It may be granted for a specific period of time or
+              indefinitely until the court changes it. Either spouse may request
+              alimony. The purpose of alimony is to provide “reasonable and
+              necessary" support.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md text-center mb-3">
+          <div class="card card-body bg-light border-0">
+            <i
+              class="fas fa-divide fs-1"
+              style="color: rgba(248, 175, 40, 0.842)"
+            ></i>
+            <h5>Wills</h5>
+            <p>
+              A will and its requirements. A will is a person's expressed
+              intention of what should be done with his/her property after that
+              person dies. It must be in writing, signed by the person creating
+              the will (the "testator") and witnessed by two persons. The
+              testator normally must have attained the age of majority, and must
+              be of "sound mind" at the time the will is executed. A married
+              minor is usually capable of executing a will.
+            </p>
+          </div>
+        </div>
+        <div class="col-md text-center mb-3">
+          <div class="card card-body bg-light border-0">
+            <i
+              class="fas fa-users fs-1"
+              style="color: rgba(248, 175, 40, 0.842)"
+            ></i>
+            <h5>Family Law Appeals</h5>
+            <p>
+              If you believe that the trial court has made an error in your
+              family law case, in a final judgment or final order, you may be
+              able to correct these mistakes by filing an appeal—the appeal
+              would address mistakes or misapplications of the law. If you wish
+              you file an appeal you must act immediately following the
+              rendition of the final judgment or final order.
+            </p>
+          </div>
+        </div>
+        <div class="col-md text-center mb-3">
+          <div class="card card-body bg-light border-0">
+            <i
+              class="far fa-handshake fs-1"
+              style="color: rgba(248, 175, 40, 0.842)"
+            ></i>
+            <h5>Separation & Divorce</h5>
+            <p>
+              Divorce and separation is the legal ending of a marriage by a
+              court that officially dissolves the bonds of matrimony between a
+              couple in a particular country or state. Our team of legal experts
+              has what it takes within the legal framework to assist you go
+              through it successfully with no future regrets.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container mt-5">
+        <div class="lineInfo">
+          <div class="line"></div>
+        </div>
+        <h2 class="text-center mt-4">How It Works</h2>
+        <p class="text-center mt-4">Our model of operation</p>
+        <div class="row">
+          <div class="col-md text-center mb-3">
+            <div class="card card-body bg-light border-0">
+              <h1 class="text-black-50">01</h1>
+              <h3>Consultation</h3>
+              <p>
+                Our team of expertise in every aspect of our job is assign to
+                listen to your complaints first
+              </p>
+            </div>
+          </div>
+          <div class="col-md text-center mb-3">
+            <div class="card card-body bg-light border-0">
+              <h1 class="text-black-50">02</h1>
+              <h6></h6>
+              <h3>Strategize</h3>
+              <p>
+                We brainstorm by applying the law, and strategize on the best
+                possible solutions to our clients case
+              </p>
+            </div>
+          </div>
+          <div class="col-md text-center mb-3">
+            <div class="card card-body bg-light border-0">
+              <h1 class="text-black-50">03</h1>
+              <h3>Take Action</h3>
+              <p>
+                We then take an action either by reaching a consensus with
+                opponents or defending our clients until a verdict is given
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <button class="btn text-white btn-warning text-uppercase mt-4">
+            let's discuss
+          </button>
+        </div>
+      </div>
+
+
+
+    <!-- START APPOINT -->
+    <div class="banner-image-2 d-flex align-items-center mt-5">
+      <div class="container">
+        <div class="content text-start mt-4 text-center">
+          <div class="lineInfo">
+            <div class="line"></div>
+          </div>
+          <h1 class="text-white">We Help Solve Your Legal Issues</h1>
+          <p class="text-white mt-4">
+            Are you thinking about getting legal advice? Would you like to find
+            out more <br />
+            about our services? You can send us an e-mail and our team of expert
+            will <br />
+            respond to you immediately.
+          </p>
+          <button
+            type="button"
+            class="btn btn-warning text-uppercase text-white mt-4"
+          >
+            Get appointment
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- END APPOINTMENT -->
+
+    <!-- START FOOTER -->
+    <div class="" style="background-color: #323438">
+      <div class="container">
+        <footer class="py-3">
+          <ul
+            class="nav justify-content-center border-bottom pb-3 mb-3 h-footer"
+          >
+            <li class="nav-item">
+              <a
+                href="/components/Home/home.html"
+                class="nav-link px-2 text-white fw-medium"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="/components/About/about.html"
+                class="nav-link px-2 text-white fw-medium"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-white fw-medium"
+                >Practice Areas</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="/components/Blog/blog.html" class="nav-link px-2 text-white fw-medium">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="/components/Contact/contact.html" class="nav-link px-2 text-white fw-medium">Contact</a>
+            </li>
+          </ul>
+          <p class="text-center text-white fw-medium">
+            Copyright &copy; 2023 Rombouts House Law Firm || No.1 Trusted Law
+            Firm
+          </p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

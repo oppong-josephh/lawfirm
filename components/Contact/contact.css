@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+  }
+  
+  .banner-image {
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: linear-gradient(rgba(0, 36, 82, 0.541), rgba(0, 36, 82, 0.753)),
+    url(/components/assests/practice-areas-1.jpg);
+  }
+  
+  .banner-image-2 {
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: linear-gradient(rgba(0, 36, 82, 0.541), rgba(0, 36, 82, 0.753)),
+    url(/components/assests/h-bg2.jpg);
+    /* margin-top: 50px; */
+  }
+  
+  .h-footer{
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* MOBILE RESPONSIVE */
+@media(max-width: 375px){
+  #main-b .a-bg{
+    height: 20rem;
+  }
+  .work-done{
+    padding-top: 500px;
+  }
+  .box{
+    height: 18rem;
+    width: 15rem;
+  }
+  .aims{
+    margin-top: 600px;
+  }
+}
+
+@media(max-width: 991px){
+  #main-b .a-bg{
+    height: 30rem;
+  }
+  .box{
+    height: 30rem;
+    width: 18rem;
+  }
+}
+
+@media(max-width: 575px){
+  .work-done{
+    padding-top: 500px;
+  }
+  .aims{
+    margin-top: 600px;
+  }
+}
+
+
+
+
+
+/* ABOUT */
+@media(max-width: 375px){
+  .our-box{
+    display: none;
+  }
+}
+
+@media(max-width: 991px){
+  .our-box{
+    display: none;
+  }
+}
+  
