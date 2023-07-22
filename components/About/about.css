@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+  }
+  
+  .banner-image {
+    height: 180vh;
+    min-height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: linear-gradient(rgba(0, 36, 82, 0.541), rgba(0, 36, 82, 0.753)),
+    url(/components/assests/about-bg.jpg);
+  }
+  
+  .about{
+      margin-top: 20vh;
+  }
+  
+  .btn {
+    color: rgba(255, 166, 0, 0.527);
+    background-color: rgba(248, 175, 40, 0.842);
+  }
+  
+  .t-color-1 {
+    color: rgba(255, 166, 0, 0.527);
+  }
+  .lineInfo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .line {
+    width: 100px;
+    height: 1px;
+    border: 3px solid rgba(248, 175, 40, 0.842);
+  }
+  
+  .a-left{
+    margin-top: 10vh;
+  }
+  
+  
+  #main-b{
+    position: relative;
+  }
+  
+  .box{
+    background-color: rgba(248, 175, 40, 0.842);
+    height: 490px;
+    width: 350px;
+    top: 0px;
+    left: 40px;
+    position: absolute;
+  }
+  
+  #main-b img{
+    height: 500px;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+  }
+  
+ 
+  #our-main-box{
+    position: relative;
+  }
+  
+  .our-box{
+    background-color: rgba(248, 175, 40, 0.842);
+    height: 410px;
+    width: 550px;
+    top: 0px;
+    left: 40px;
+    position: absolute;
+  }
+  
+  #our-main-box img{
+    position: absolute;
+    top: 40px;
+    left: 10px;
+  }
+  
+  .sp{
+    margin-top: 50vh;
+  }
+  
+  .cd{
+    box-shadow: 0 2px 90px rgba(0,0,0,0.1);
+  }
+  
+  .space{
+    margin-bottom: 50px;
+  }
+  
+  
+  .test{
+    margin-bottom: 100vh;
+  }
+  
+  .content-bg{
+    padding: 20px 20px;
+  }
+  
+  .content-bg .content-details{
+    margin-top: 40px;
+  }
+  .customer{
+    margin-top: 90px;
+  }
+  
+  .card-img{
+    top: 40px;
+  }
+  
+  
+  .banner-image-2 {
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: linear-gradient(rgba(0, 36, 82, 0.541), rgba(0, 36, 82, 0.753)),
+    url(/components/assests/h-bg2.jpg);
+    /* margin-top: 50px; */
+  }
+  
+  .h-footer{
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* MOBILE RESPONSIVE */
+  @media(max-width: 375px){
+    #main-b .a-bg{
+      height: 20rem;
+    }
+    .box{
+      height: 18rem;
+      width: 15rem;
+    }
+  }
+  
+  @media(max-width: 991px){
+    #main-b .a-bg{
+      height: 30rem;
+    }
+    .box{
+      height: 30rem;
+      width: 18rem;
+    }
+  }
+  
+  /* ABOUT */
+  @media(max-width: 375px){
+    .our-box{
+      display: none;
+    }
+  }
+  
+  @media(max-width: 991px){
+    .our-box{
+      display: none;
+    }
+  }
+  
